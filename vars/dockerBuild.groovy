@@ -1,4 +1,4 @@
-def call(){
+def call(String imageName, String imageTag){
 
 echo "======= BUILD DOCKER IMAGE ======="
 
