@@ -1,4 +1,4 @@
-def call(String namespace = "expense-dev") {
+def call(String imageName = "", String buildNumber = "", String namespace = "expense-dev") {
 
 withCredentials([
     file(
