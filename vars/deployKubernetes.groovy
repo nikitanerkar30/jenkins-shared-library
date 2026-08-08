@@ -1,6 +1,5 @@
 def call(String namespace = "expense-dev") {
 
-```
 withCredentials([
     file(
         credentialsId: 'k8s-config',
@@ -62,6 +61,5 @@ withCredentials([
         echo "========================================="
     """
 }
-```
 
 }
